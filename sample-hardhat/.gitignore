@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+*.log
+
+# Environment variables - CRITICAL: Never commit .env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+artifacts/
+cache/
+dist/
+build/
+
+# Hardhat
+.hardhat/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Generated files (keep repo small)
+*.png
+*.svg
+gas-report*.txt

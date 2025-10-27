@@ -1,0 +1,77 @@
+{
+  "name": "web3-copilot-proto",
+  "displayName": "Web3 Copilot Proto",
+  "description": "A VSCode extension for Web3 development assistance",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:web3-copilot-proto.insertTemplate",
+    "onCommand:web3-copilot-proto.generateDocs",
+    "onCommand:web3-copilot-proto.runAnalysis",
+    "onCommand:web3-copilot-proto.openWeb3Chat",
+    "onCommand:web3-copilot-proto.runSlitherDocker",
+    "onCommand:web3-copilot-proto.showDeployment",
+    "onCommand:web3-copilot-proto.generateSnippet"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "web3-copilot-proto.insertTemplate",
+        "title": "Web3: Insert ERC20 Template"
+      },
+      {
+        "command": "web3-copilot-proto.generateDocs",
+        "title": "Web3: Generate NatSpec Docs"
+      },
+      {
+        "command": "web3-copilot-proto.runAnalysis",
+        "title": "Web3: Run Security Analysis (Regex Fallback)"
+      },
+      {
+        "command": "web3-copilot-proto.openWeb3Chat",
+        "title": "Web3: Open Security Chat"
+      },
+      {
+        "command": "web3-copilot-proto.runSlitherDocker",
+        "title": "Web3: Run Slither (Docker)"
+      },
+      {
+        "command": "web3-copilot-proto.showDeployment",
+        "title": "Web3: Show Latest Deployment Info"
+      },
+      {
+        "command": "web3-copilot-proto.generateSnippet",
+        "title": "Web3: Generate Hardhat Snippet from ABI"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/minimatch": "^3.0.5",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.60.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "@vscode/test-electron": "^2.1.5",
+    "eslint": "^8.20.0",
+    "glob": "^7.2.0",
+    "minimatch": "^3.1.2",
+    "mocha": "^10.0.0",
+    "typescript": "^4.7.4"
+  }
+}

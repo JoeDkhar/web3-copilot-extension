@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-10-08T17:02:53.381Z",
+    "network": "sepolia",
+    "mode": "SAFE",
+    "contract": "MyToken",
+    "address": "0x86C5bFdC0d89f3c18836c145ad9072959488DB58",
+    "gasUsage": {
+      "transfer": "51598",
+      "mint": "DISABLED",
+      "transferOwnership": "DISABLED"
+    },
+    "balances": {
+      "owner": "99.997",
+      "user1": "0.001",
+      "user2": "0.0"
+    },
+    "totalSupplyBefore": 100.01,
+    "totalSupplyAfter": "100.01"
+  }
+]

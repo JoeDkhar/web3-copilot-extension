@@ -1,0 +1,154 @@
+[
+  {
+    "timestamp": "2025-10-08T17:01:59.468Z",
+    "network": "localhost",
+    "mode": "FULL",
+    "contract": "MyToken",
+    "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+    "gasUsage": {
+      "transfer": "51598",
+      "mint": "53572",
+      "transferOwnership": "28656"
+    },
+    "balances": {
+      "owner": "99.999",
+      "user1": "0.001",
+      "user2": "0.01"
+    },
+    "totalSupplyBefore": 100,
+    "totalSupplyAfter": "100.01"
+  },
+  {
+    "timestamp": "2025-10-27T16:21:27.684Z",
+    "network": "localhost",
+    "mode": "FULL",
+    "contract": "MyToken",
+    "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "gasUsage": {
+      "transfer": "51598",
+      "mint": "53572",
+      "transferOwnership": "28656"
+    },
+    "balances": {
+      "owner": "99.999",
+      "user1": "0.001",
+      "user2": "0.01"
+    },
+    "totalSupplyBefore": 100,
+    "totalSupplyAfter": "100.01"
+  },
+  {
+    "timestamp": "2025-10-27T16:21:31.410Z",
+    "network": "localhost",
+    "mode": "FULL",
+    "contract": "MyToken",
+    "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+    "gasUsage": {
+      "transfer": "51598",
+      "mint": "53572",
+      "transferOwnership": "28656"
+    },
+    "balances": {
+      "owner": "99.999",
+      "user1": "0.001",
+      "user2": "0.01"
+    },
+    "totalSupplyBefore": 100,
+    "totalSupplyAfter": "100.01"
+  },
+  {
+    "timestamp": "2025-10-27T16:21:35.136Z",
+    "network": "localhost",
+    "mode": "FULL",
+    "contract": "MyToken",
+    "address": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
+    "gasUsage": {
+      "transfer": "51598",
+      "mint": "53572",
+      "transferOwnership": "28656"
+    },
+    "balances": {
+      "owner": "99.999",
+      "user1": "0.001",
+      "user2": "0.01"
+    },
+    "totalSupplyBefore": 100,
+    "totalSupplyAfter": "100.01"
+  },
+  {
+    "timestamp": "2025-10-27T16:38:37.466Z",
+    "network": "localhost",
+    "mode": "FULL",
+    "contract": "MyToken",
+    "address": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
+    "gasUsage": {
+      "transfer": "34498",
+      "mint": "FAILED",
+      "transferOwnership": "FAILED"
+    },
+    "balances": {
+      "owner": "99.998",
+      "user1": "0.002",
+      "user2": "0.01"
+    },
+    "totalSupplyBefore": 100.01,
+    "totalSupplyAfter": "100.01"
+  },
+  {
+    "timestamp": "2025-10-27T16:45:31.848Z",
+    "network": "localhost",
+    "mode": "FULL",
+    "contract": "MyToken",
+    "address": "0x0B306BF915C4d645ff596e518fAf3F9669b97016",
+    "gasUsage": {
+      "transfer": "51598",
+      "mint": "53572",
+      "transferOwnership": "28656"
+    },
+    "balances": {
+      "owner": "99.999",
+      "user1": "0.001",
+      "user2": "0.01"
+    },
+    "totalSupplyBefore": 100,
+    "totalSupplyAfter": "100.01"
+  },
+  {
+    "timestamp": "2025-10-27T16:45:35.655Z",
+    "network": "localhost",
+    "mode": "FULL",
+    "contract": "MyToken",
+    "address": "0x3Aa5ebB10DC797CAC828524e59A333d0A371443c",
+    "gasUsage": {
+      "transfer": "51598",
+      "mint": "53572",
+      "transferOwnership": "28656"
+    },
+    "balances": {
+      "owner": "99.999",
+      "user1": "0.001",
+      "user2": "0.01"
+    },
+    "totalSupplyBefore": 100,
+    "totalSupplyAfter": "100.01"
+  },
+  {
+    "timestamp": "2025-10-27T16:45:39.487Z",
+    "network": "localhost",
+    "mode": "FULL",
+    "contract": "MyToken",
+    "address": "0x322813Fd9A801c5507c9de605d63CEA4f2CE6c44",
+    "gasUsage": {
+      "transfer": "51598",
+      "mint": "53572",
+      "transferOwnership": "28656"
+    },
+    "balances": {
+      "owner": "99.999",
+      "user1": "0.001",
+      "user2": "0.01"
+    },
+    "totalSupplyBefore": 100,
+    "totalSupplyAfter": "100.01"
+  }
+]

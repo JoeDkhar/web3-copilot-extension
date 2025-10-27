@@ -1,0 +1,4 @@
+- name: Run Slither via Docker
+  run: |
+    docker run --rm -v "${{ github.workspace }}":/src ghcr.io/crytic/slither \
+      slither /src/sample-hardhat/contracts/ERC20.sol || true
